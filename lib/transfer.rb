@@ -1,8 +1,6 @@
 class Transfer
   attr_accessor :sender, :receiver, :pending, :amount, :status
   
-  @@runalready = 0
-  
   def initialize(sender, receiver, amount)
     @sender = sender
     @receiver = receiver 
